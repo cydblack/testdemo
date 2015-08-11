@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="demo测试" parallel="false">
+
+    <test name="demo">
+        <parameter name="excelName" value="tpfun-order-service.xlsx"/>
+        <classes>
+            <class name="org.test.test.MyTest"/>
+        </classes>
+    </test>
+
+</suite>
